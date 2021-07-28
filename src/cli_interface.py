@@ -1,3 +1,4 @@
+from auto_buy import Login
 import time
 from os import system, name
 from copy import deepcopy
@@ -13,7 +14,7 @@ console = Console()
 
 
 def LoginPage():
-    a=1
+    Login()
 
 def CreatePlanPage():
     ClearScreen()
@@ -90,7 +91,7 @@ def All_Plan_Page():
 
     table.add_column("編號",justify="center")
     table.add_column("搶購時間",style="#E74856")
-    table.add_column("商品名稱",justify="center")
+    table.add_column("網址",justify="center")
     table.add_column("商品數量",justify="center")
     table.add_column("付款方式",justify="center")
     table.add_column("運送方式",justify="center")

@@ -18,8 +18,6 @@ payment_method = ["貨到付款", "信用卡/金融卡", "銀行轉帳"]
 # 0=7-11 1=萊爾富 2=全家 3=OK MART 4=黑貓宅急便
 delivery_method = ["全家", "萊爾富", "全家", "OK mart", "黑貓宅急便"]
 
-ver = "1.0.0"
-
 '''     瀏覽器設定       '''
 options = webdriver.ChromeOptions()
 prefs = {"profile.managed_default_content_settings.images": 2}
