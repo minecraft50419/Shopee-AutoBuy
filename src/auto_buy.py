@@ -2,8 +2,7 @@
 from selenium import webdriver
 import time
 
-from data_structure import CookiesToJSON,JcookiesExport
-
+from data_structure import CookiesToJSON, JcookiesExport
 
 
 '''     搶購資料        '''
@@ -90,7 +89,7 @@ def Login():
     time.sleep(1)
 
     # cookies保存
-    cookies=browser.get_cookies()
+    cookies = browser.get_cookies()
     CookiesToJSON(cookies)
 
     browser.get(buy_page)
@@ -226,8 +225,9 @@ def SelectPayment():
     textflag = False
 
 
-
 '''---------------------------------------------------------------------------------'''
+
+
 def main():
     global web_loaded_flag
 
